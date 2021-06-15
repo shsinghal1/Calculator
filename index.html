@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <!-- HTML here -->
+
+<div class="calc-container">
+	<input id="input" type="text" name="input">
+
+	<table>
+		<tr>
+			<td> <button id="clr" onclick="clearAll()">C</button></td>
+
+		</tr>
+
+		<tr>
+			<td> <button id="block7" onclick="screen('7')">7</button></td>
+			<td> <button id="block8" onclick="screen('8')">8</button></td>
+			<td> <button id="block9" onclick="screen('9')">9</button></td>
+			<td> <button id="divide" onclick="screen('/')">/</button></td>
+		</tr>
+		<tr>
+			<td> <button id="block4" onclick="screen('4')">4</button></td>
+			<td> <button id="block5" onclick="screen('5')">5</button></td>
+			<td> <button id="block6" onclick="screen('6')">6</button></td>
+			<td> <button id="multiply" onclick="screen('*')">*</button></td>
+		</tr>
+		<tr>
+
+			<td> <button id="block1" onclick="screen('1')">1</button></td>
+			<td> <button id="block2" onclick="screen('2')">2</button></td>
+			<td> <button id="block3" onclick="screen('3')">3</button></td>
+			<td> <button id="minus" onclick="screen('-')">-</button></td>
+		</tr>
+		<tr>
+			<td> <button id="block0" onclick="screen('0')">0</button></td>
+			<td> <button id="dot" onclick="screen('.')">.</button></td>
+			<td> <button id="ans" onclick="result()">=</button></td>
+			<td> <button id="plus" onclick="screen('+')">+</button></td>
+		</tr>
+	</table>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
